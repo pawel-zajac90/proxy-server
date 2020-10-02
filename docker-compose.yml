@@ -1,0 +1,42 @@
+version: "3.4"
+services:
+  apache_proxy:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./logs:/var/log/apache2
+      - ./sites-enabled:/etc/apache2/sites-enabled
+      - ./certs:/etc/letsencrypt/live
+      - ./html:/var/www/html
+    links:
+      - apache_proxy_poc
+      - apache_proxy_poc_2
+
+  apache_proxy_poc:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "500:80"
+      - "501:443"
+    volumes:
+      - ./logs-poc:/var/log/apache2
+      - ./sites-enabled-poc:/etc/apache2/sites-enabled
+      - ./certs-poc:/etc/letsencrypt/live
+      - ./html-poc:/var/www/html
+  apache_proxy_poc_2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "600:80"
+      - "601:443"
+    volumes:
+      - ./logs-poc2:/var/log/apache2
+      - ./sites-enabled-poc2:/etc/apache2/sites-enabled
+      - ./certs-poc2:/etc/letsencrypt/live
+      - ./html-poc2:/var/www/html

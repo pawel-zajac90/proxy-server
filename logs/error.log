@@ -1,0 +1,197 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.31.0.3. Set the 'ServerName' directive globally to suppress this message
+[Wed Sep 30 10:46:49.662639 2020] [mpm_event:notice] [pid 15:tid 140648295107648] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Wed Sep 30 10:46:49.662762 2020] [core:notice] [pid 15:tid 140648295107648] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.31.0.3. Set the 'ServerName' directive globally to suppress this message
+[Wed Sep 30 10:54:44.577937 2020] [mpm_event:notice] [pid 15:tid 140144836709440] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Wed Sep 30 10:54:44.578053 2020] [core:notice] [pid 15:tid 140144836709440] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Wed Sep 30 10:57:54.001183 2020] [mpm_event:notice] [pid 15:tid 140592988585024] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Wed Sep 30 10:57:54.001363 2020] [core:notice] [pid 15:tid 140592988585024] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.3. Set the 'ServerName' directive globally to suppress this message
+[Wed Sep 30 11:07:25.048686 2020] [mpm_event:notice] [pid 15:tid 140355348200512] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Wed Sep 30 11:07:25.048802 2020] [core:notice] [pid 15:tid 140355348200512] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Thu Oct 01 07:24:20.594258 2020] [mpm_event:notice] [pid 15:tid 140002813955136] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Thu Oct 01 07:24:20.594373 2020] [core:notice] [pid 15:tid 140002813955136] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Oct 01 21:43:41.919377 2020] [mpm_event:notice] [pid 15:tid 140002813955136] AH00491: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Thu Oct 01 21:44:50.100640 2020] [mpm_event:notice] [pid 15:tid 139869492440128] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Thu Oct 01 21:44:50.100784 2020] [core:notice] [pid 15:tid 139869492440128] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Thu Oct 01 21:45:44.566597 2020] [core:warn] [pid 8:tid 140218693663808] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Oct 01 21:45:44.567664 2020] [mpm_event:notice] [pid 8:tid 140218693663808] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Thu Oct 01 21:45:44.567690 2020] [core:notice] [pid 8:tid 140218693663808] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Oct 01 22:29:50.326593 2020] [mpm_event:notice] [pid 8:tid 140218693663808] AH00491: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.4. Set the 'ServerName' directive globally to suppress this message
+[Thu Oct 01 22:50:40.501004 2020] [mpm_event:notice] [pid 8:tid 139847892180032] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Thu Oct 01 22:50:40.501123 2020] [core:notice] [pid 8:tid 139847892180032] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Oct 01 22:53:00.382629 2020] [proxy:error] [pid 9:tid 139847398278912] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.18.0.2:500 (172.18.0.2) failed
+[Thu Oct 01 22:53:00.383005 2020] [proxy_http:error] [pid 9:tid 139847398278912] [client 172.19.0.1:57948] AH01114: HTTP: failed to make connection to backend: 172.18.0.2
+[Thu Oct 01 22:53:22.915044 2020] [proxy:error] [pid 10:tid 139847482205952] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.18.0.2:500 (172.18.0.2) failed
+[Thu Oct 01 22:53:22.915468 2020] [proxy_http:error] [pid 10:tid 139847482205952] [client 172.19.0.1:57966] AH01114: HTTP: failed to make connection to backend: 172.18.0.2
+[Thu Oct 01 22:55:38.078608 2020] [proxy:error] [pid 10:tid 139847473813248] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.18.0.2:500 (172.18.0.2) failed
+[Thu Oct 01 22:55:38.078744 2020] [proxy_http:error] [pid 10:tid 139847473813248] [client 172.19.0.1:58022] AH01114: HTTP: failed to make connection to backend: 172.18.0.2
+[Thu Oct 01 22:56:08.798628 2020] [proxy:error] [pid 9:tid 139847431849728] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.18.0.2:500 (172.18.0.2) failed
+[Thu Oct 01 22:56:08.798771 2020] [proxy_http:error] [pid 9:tid 139847431849728] [client 172.19.0.1:58048] AH01114: HTTP: failed to make connection to backend: 172.18.0.2
+[Thu Oct 01 22:58:21.918711 2020] [proxy:error] [pid 10:tid 139847465420544] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.18.0.2:500 (172.18.0.2) failed
+[Thu Oct 01 22:58:21.918864 2020] [proxy_http:error] [pid 10:tid 139847465420544] [client 172.19.0.1:58098] AH01114: HTTP: failed to make connection to backend: 172.18.0.2
+[Thu Oct 01 23:00:32.990773 2020] [proxy:error] [pid 9:tid 139847465420544] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.18.0.2:500 (172.18.0.2) failed
+[Thu Oct 01 23:00:32.990904 2020] [proxy_http:error] [pid 9:tid 139847465420544] [client 172.19.0.1:58130] AH01114: HTTP: failed to make connection to backend: 172.18.0.2, referer: http://localhost/
+[Thu Oct 01 23:01:18.046708 2020] [proxy:error] [pid 10:tid 139847448635136] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.18.0.2:500 (172.18.0.2) failed
+[Thu Oct 01 23:01:18.046834 2020] [proxy_http:error] [pid 10:tid 139847448635136] [client 172.19.0.1:58150] AH01114: HTTP: failed to make connection to backend: 172.18.0.2
+[Thu Oct 01 23:02:58.398666 2020] [proxy:error] [pid 10:tid 139847440242432] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.18.0.2:500 (172.18.0.2) failed
+[Thu Oct 01 23:02:58.398835 2020] [proxy_http:error] [pid 10:tid 139847440242432] [client 172.19.0.1:58162] AH01114: HTTP: failed to make connection to backend: 172.18.0.2
+[Thu Oct 01 23:02:58.402615 2020] [proxy:error] [pid 10:tid 139847356380928] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.18.0.2:500 (172.18.0.2) failed
+[Thu Oct 01 23:02:58.402748 2020] [proxy_http:error] [pid 10:tid 139847356380928] [client 172.19.0.1:58168] AH01114: HTTP: failed to make connection to backend: 172.18.0.2
+[Thu Oct 01 23:03:06.590642 2020] [proxy:error] [pid 9:tid 139847482205952] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.18.0.2:500 (172.18.0.2) failed
+[Thu Oct 01 23:03:06.590748 2020] [proxy_http:error] [pid 9:tid 139847482205952] [client 172.19.0.1:58178] AH01114: HTTP: failed to make connection to backend: 172.18.0.2
+[Thu Oct 01 23:03:33.214595 2020] [proxy:error] [pid 9:tid 139847389886208] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.18.0.2:500 (172.18.0.2) failed
+[Thu Oct 01 23:03:33.214726 2020] [proxy_http:error] [pid 9:tid 139847389886208] [client 172.19.0.1:58190] AH01114: HTTP: failed to make connection to backend: 172.18.0.2
+[Thu Oct 01 23:03:53.694623 2020] [proxy:error] [pid 10:tid 139847347988224] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.18.0.2:500 (172.18.0.2) failed
+[Thu Oct 01 23:03:53.694808 2020] [proxy_http:error] [pid 10:tid 139847347988224] [client 172.19.0.1:58202] AH01114: HTTP: failed to make connection to backend: 172.18.0.2
+[Thu Oct 01 23:06:06.814588 2020] [proxy:error] [pid 9:tid 139847381493504] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.18.0.2:500 (172.18.0.2) failed
+[Thu Oct 01 23:06:06.814716 2020] [proxy_http:error] [pid 9:tid 139847381493504] [client 172.19.0.1:58226] AH01114: HTTP: failed to make connection to backend: 172.18.0.2
+[Thu Oct 01 23:06:29.342682 2020] [proxy:error] [pid 9:tid 139847373100800] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.18.0.2:500 (172.18.0.2) failed
+[Thu Oct 01 23:06:29.342826 2020] [proxy_http:error] [pid 9:tid 139847373100800] [client 172.19.0.1:58236] AH01114: HTTP: failed to make connection to backend: 172.18.0.2
+[Thu Oct 01 23:06:55.970797 2020] [proxy:error] [pid 10:tid 139847322810112] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.18.0.2:500 (172.18.0.2) failed
+[Thu Oct 01 23:06:55.970943 2020] [proxy_http:error] [pid 10:tid 139847322810112] [client 172.19.0.1:58246] AH01114: HTTP: failed to make connection to backend: 172.18.0.2
+[Thu Oct 01 23:07:02.110590 2020] [proxy:error] [pid 9:tid 139847364708096] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.18.0.2:500 (172.18.0.2) failed
+[Thu Oct 01 23:07:02.110717 2020] [proxy_http:error] [pid 9:tid 139847364708096] [client 172.19.0.1:58252] AH01114: HTTP: failed to make connection to backend: 172.18.0.2
+[Thu Oct 01 23:08:01.502659 2020] [proxy:error] [pid 10:tid 139847314417408] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.18.0.2:500 (172.18.0.2) failed
+[Thu Oct 01 23:08:01.502798 2020] [proxy_http:error] [pid 10:tid 139847314417408] [client 172.19.0.1:58262] AH01114: HTTP: failed to make connection to backend: 172.18.0.2
+[Thu Oct 01 23:11:11.966648 2020] [proxy:error] [pid 9:tid 139847356315392] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.18.0.2:500 (172.18.0.2) failed
+[Thu Oct 01 23:11:11.966781 2020] [proxy_http:error] [pid 9:tid 139847356315392] [client 172.19.0.1:58394] AH01114: HTTP: failed to make connection to backend: 172.18.0.2
+[Thu Oct 01 23:13:23.043083 2020] [proxy:error] [pid 10:tid 139846408464128] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.18.0.2:500 (172.18.0.2) failed
+[Thu Oct 01 23:13:23.043294 2020] [proxy_http:error] [pid 10:tid 139846408464128] [client 172.19.0.1:58428] AH01114: HTTP: failed to make connection to backend: 172.18.0.2, referer: http://localhost/
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.4. Set the 'ServerName' directive globally to suppress this message
+[Thu Oct 01 23:15:28.074253 2020] [mpm_event:notice] [pid 15:tid 139982450256960] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Thu Oct 01 23:15:28.074370 2020] [core:notice] [pid 15:tid 139982450256960] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Oct 01 23:17:49.278591 2020] [proxy:error] [pid 16:tid 139981943158528] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.19.0.2:500 (172.19.0.2) failed
+[Thu Oct 01 23:17:49.278846 2020] [proxy_http:error] [pid 16:tid 139981943158528] [client 172.20.0.1:58124] AH01114: HTTP: failed to make connection to backend: 172.19.0.2
+[Thu Oct 01 23:18:22.050685 2020] [proxy:error] [pid 16:tid 139981934765824] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.19.0.2:500 (172.19.0.2) failed
+[Thu Oct 01 23:18:22.050809 2020] [proxy_http:error] [pid 16:tid 139981934765824] [client 172.20.0.1:58136] AH01114: HTTP: failed to make connection to backend: 172.19.0.2
+[Thu Oct 01 23:20:00.354588 2020] [proxy:error] [pid 16:tid 139981926373120] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.19.0.2:500 (172.19.0.2) failed
+[Thu Oct 01 23:20:00.354705 2020] [proxy_http:error] [pid 16:tid 139981926373120] [client 172.20.0.1:58154] AH01114: HTTP: failed to make connection to backend: 172.19.0.2
+[Thu Oct 01 23:22:11.422476 2020] [proxy:error] [pid 17:tid 139981884409600] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.19.0.2:500 (172.19.0.2) failed
+[Thu Oct 01 23:22:11.422579 2020] [proxy_http:error] [pid 17:tid 139981884409600] [client 172.20.0.1:58178] AH01114: HTTP: failed to make connection to backend: 172.19.0.2, referer: http://reverse.com/
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 01:34:19.020736 2020] [mpm_event:notice] [pid 15:tid 140189270604864] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 01:34:19.020858 2020] [core:notice] [pid 15:tid 140189270604864] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 01:35:13.328951 2020] [mpm_event:notice] [pid 15:tid 140448839470144] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 01:35:13.329100 2020] [core:notice] [pid 15:tid 140448839470144] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.2. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 01:42:35.672214 2020] [mpm_event:notice] [pid 15:tid 140371249851456] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 01:42:35.672409 2020] [core:notice] [pid 15:tid 140371249851456] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Oct 02 01:44:47.966558 2020] [proxy:error] [pid 17:tid 140370923353856] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.20.0.3:80 (172.20.0.3) failed
+[Fri Oct 02 01:44:47.966769 2020] [proxy_http:error] [pid 17:tid 140370923353856] [client 172.21.0.1:36754] AH01114: HTTP: failed to make connection to backend: 172.20.0.3
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.2. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 01:45:46.092309 2020] [mpm_event:notice] [pid 15:tid 140584613698624] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 01:45:46.092403 2020] [core:notice] [pid 15:tid 140584613698624] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Oct 02 01:48:04.574665 2020] [proxy:error] [pid 17:tid 140584077424384] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.20.0.3:80 (172.20.0.3) failed
+[Fri Oct 02 01:48:04.574968 2020] [proxy_http:error] [pid 17:tid 140584077424384] [client 172.22.0.1:35346] AH01114: HTTP: failed to make connection to backend: 172.20.0.3
+[Fri Oct 02 01:48:14.814674 2020] [proxy:error] [pid 16:tid 140584136173312] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.20.0.3:80 (172.20.0.3) failed
+[Fri Oct 02 01:48:14.814964 2020] [proxy_http:error] [pid 16:tid 140584136173312] [client 172.22.0.1:35356] AH01114: HTTP: failed to make connection to backend: 172.20.0.3
+[Fri Oct 02 01:50:25.886668 2020] [proxy:error] [pid 16:tid 140584110995200] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.20.0.3:80 (172.20.0.3) failed
+[Fri Oct 02 01:50:25.886803 2020] [proxy_http:error] [pid 16:tid 140584110995200] [client 172.22.0.1:35392] AH01114: HTTP: failed to make connection to backend: 172.20.0.3, referer: http://reverse.com/
+[Fri Oct 02 01:53:44.542475 2020] [proxy:error] [pid 17:tid 140584060638976] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.20.0.3:80 (172.20.0.3) failed
+[Fri Oct 02 01:53:44.542513 2020] [proxy_http:error] [pid 17:tid 140584060638976] [client 172.22.0.1:35452] AH01114: HTTP: failed to make connection to backend: 172.20.0.3
+[Fri Oct 02 01:53:48.638619 2020] [proxy:error] [pid 17:tid 140584052246272] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.20.0.3:80 (172.20.0.3) failed
+[Fri Oct 02 01:53:48.638722 2020] [proxy_http:error] [pid 17:tid 140584052246272] [client 172.22.0.1:35460] AH01114: HTTP: failed to make connection to backend: 172.20.0.3
+[Fri Oct 02 01:54:17.310669 2020] [proxy:error] [pid 16:tid 140584094209792] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.20.0.3:80 (172.20.0.3) failed
+[Fri Oct 02 01:54:17.310792 2020] [proxy_http:error] [pid 16:tid 140584094209792] [client 172.22.0.1:35480] AH01114: HTTP: failed to make connection to backend: 172.20.0.3
+[Fri Oct 02 01:55:06.462990 2020] [proxy:error] [pid 17:tid 140584043853568] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.20.0.3:80 (172.20.0.3) failed
+[Fri Oct 02 01:55:06.463048 2020] [proxy_http:error] [pid 17:tid 140584043853568] [client 172.22.0.1:35512] AH01114: HTTP: failed to make connection to backend: 172.20.0.3
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 06:15:13.496297 2020] [mpm_event:notice] [pid 17:tid 139903642168384] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 06:15:13.496399 2020] [core:notice] [pid 17:tid 139903642168384] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Oct 02 06:17:45.277672 2020] [proxy:error] [pid 18:tid 139903123814144] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.18.0.2:80 (172.18.0.2) failed
+[Fri Oct 02 06:17:45.279916 2020] [proxy_http:error] [pid 18:tid 139903123814144] [client 172.23.0.1:40146] AH01114: HTTP: failed to make connection to backend: 172.18.0.2
+[Fri Oct 02 06:17:55.517729 2020] [proxy:error] [pid 18:tid 139903115421440] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.18.0.2:80 (172.18.0.2) failed
+[Fri Oct 02 06:17:55.517830 2020] [proxy_http:error] [pid 18:tid 139903115421440] [client 172.23.0.1:40156] AH01114: HTTP: failed to make connection to backend: 172.18.0.2
+[Fri Oct 02 06:24:51.261550 2020] [proxy:error] [pid 18:tid 139903081850624] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.18.0.2:80 (172.18.0.2) failed
+[Fri Oct 02 06:24:51.261600 2020] [proxy_http:error] [pid 18:tid 139903081850624] [client 172.23.0.1:40244] AH01114: HTTP: failed to make connection to backend: 172.18.0.2
+[Fri Oct 02 06:26:23.421715 2020] [proxy:error] [pid 18:tid 139903056672512] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.18.0.2:80 (172.18.0.2) failed
+[Fri Oct 02 06:26:23.421837 2020] [proxy_http:error] [pid 18:tid 139903056672512] [client 172.23.0.1:40268] AH01114: HTTP: failed to make connection to backend: 172.18.0.2
+[Fri Oct 02 06:31:32.669722 2020] [proxy:error] [pid 19:tid 139903148992256] (110)Connection timed out: AH00957: HTTP: attempt to connect to 172.18.0.2:80 (172.18.0.2) failed
+[Fri Oct 02 06:31:32.670045 2020] [proxy_http:error] [pid 19:tid 139903148992256] [client 172.23.0.1:40388] AH01114: HTTP: failed to make connection to backend: 172.18.0.2
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.24.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 07:09:06.337713 2020] [mpm_event:notice] [pid 15:tid 139898241846336] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 07:09:06.337857 2020] [core:notice] [pid 15:tid 139898241846336] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Oct 02 07:09:41.633979 2020] [proxy:error] [pid 17:tid 139897755105024] (111)Connection refused: AH00957: HTTP: attempt to connect to 172.24.0.2:500 (172.24.0.2) failed
+[Fri Oct 02 07:09:41.634063 2020] [proxy_http:error] [pid 17:tid 139897755105024] [client 172.24.0.1:35664] AH01114: HTTP: failed to make connection to backend: 172.24.0.2
+[Fri Oct 02 07:09:57.883875 2020] [proxy:error] [pid 17:tid 139897746712320] (111)Connection refused: AH00957: HTTP: attempt to connect to 172.24.0.2:500 (172.24.0.2) failed
+[Fri Oct 02 07:09:57.883929 2020] [proxy_http:error] [pid 17:tid 139897746712320] [client 172.24.0.1:35688] AH01114: HTTP: failed to make connection to backend: 172.24.0.2
+[Fri Oct 02 07:10:08.145517 2020] [proxy:error] [pid 17:tid 139897729926912] (111)Connection refused: AH00957: HTTP: attempt to connect to 172.24.0.2:500 (172.24.0.2) failed
+[Fri Oct 02 07:10:08.145579 2020] [proxy_http:error] [pid 17:tid 139897729926912] [client 172.24.0.1:35696] AH01114: HTTP: failed to make connection to backend: 172.24.0.2
+[Fri Oct 02 07:10:08.208679 2020] [proxy:error] [pid 16:tid 139897713141504] (111)Connection refused: AH00957: HTTP: attempt to connect to 172.24.0.2:500 (172.24.0.2) failed
+[Fri Oct 02 07:10:08.208754 2020] [proxy_http:error] [pid 16:tid 139897713141504] [client 172.24.0.1:35702] AH01114: HTTP: failed to make connection to backend: 172.24.0.2, referer: http://reverse.com/
+[Fri Oct 02 07:10:26.418528 2020] [proxy:error] [pid 17:tid 139897713141504] (111)Connection refused: AH00957: HTTP: attempt to connect to 172.24.0.2:500 (172.24.0.2) failed
+[Fri Oct 02 07:10:26.418569 2020] [proxy_http:error] [pid 17:tid 139897713141504] [client 172.24.0.1:35712] AH01114: HTTP: failed to make connection to backend: 172.24.0.2
+[Fri Oct 02 07:10:26.466266 2020] [proxy:error] [pid 17:tid 139897595709184] (111)Connection refused: AH00957: HTTP: attempt to connect to 172.24.0.2:500 (172.24.0.2) failed
+[Fri Oct 02 07:10:26.466295 2020] [proxy_http:error] [pid 17:tid 139897595709184] [client 172.24.0.1:35718] AH01114: HTTP: failed to make connection to backend: 172.24.0.2, referer: http://reverse.com/
+[Fri Oct 02 07:10:28.090148 2020] [proxy:error] [pid 17:tid 139897578923776] (111)Connection refused: AH00957: HTTP: attempt to connect to 172.24.0.2:500 (172.24.0.2) failed
+[Fri Oct 02 07:10:28.090192 2020] [proxy_http:error] [pid 17:tid 139897578923776] [client 172.24.0.1:35724] AH01114: HTTP: failed to make connection to backend: 172.24.0.2
+[Fri Oct 02 07:10:28.125674 2020] [proxy:error] [pid 17:tid 139897604101888] (111)Connection refused: AH00957: HTTP: attempt to connect to 172.24.0.2:500 (172.24.0.2) failed
+[Fri Oct 02 07:10:28.125704 2020] [proxy_http:error] [pid 17:tid 139897604101888] [client 172.24.0.1:35730] AH01114: HTTP: failed to make connection to backend: 172.24.0.2, referer: http://reverse.com/
+[Fri Oct 02 07:11:09.332997 2020] [mpm_event:notice] [pid 15:tid 139898241846336] AH00491: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.24.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 07:11:17.545701 2020] [mpm_event:notice] [pid 8:tid 139738745486400] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 07:11:17.545823 2020] [core:notice] [pid 8:tid 139738745486400] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.25.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 07:15:37.440129 2020] [mpm_event:notice] [pid 15:tid 139762961685568] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 07:15:37.440264 2020] [core:notice] [pid 15:tid 139762961685568] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.25.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 07:16:48.751587 2020] [core:warn] [pid 8:tid 140596528471104] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 02 07:16:48.752768 2020] [mpm_event:notice] [pid 8:tid 140596528471104] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 07:16:48.752807 2020] [core:notice] [pid 8:tid 140596528471104] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.26.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 07:24:14.909278 2020] [mpm_event:notice] [pid 9:tid 140118492240960] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 07:24:14.909388 2020] [core:notice] [pid 9:tid 140118492240960] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Oct 02 07:24:20.067752 2020] [proxy:error] [pid 10:tid 140118157289216] [client 172.26.0.1:51250] AH00898: DNS lookup failure for: apache_proxy_pocicons returned by /icons/ubuntu-logo.png, referer: http://reverse.com/
+[Fri Oct 02 07:24:20.154693 2020] [proxy:error] [pid 10:tid 140117763139328] [client 172.26.0.1:51250] AH00898: DNS lookup failure for: apache_proxy_pocfavicon.ico returned by /favicon.ico, referer: http://reverse.com/
+[Fri Oct 02 07:24:22.902958 2020] [proxy:error] [pid 10:tid 140117746353920] [client 172.26.0.1:51250] AH00898: DNS lookup failure for: apache_proxy_pocicons returned by /icons/ubuntu-logo.png, referer: http://reverse.com/
+[Fri Oct 02 07:24:22.938145 2020] [proxy:error] [pid 10:tid 140118023182080] [client 172.26.0.1:51250] AH00898: DNS lookup failure for: apache_proxy_pocfavicon.ico returned by /favicon.ico, referer: http://reverse.com/
+[Fri Oct 02 07:25:17.079633 2020] [proxy:error] [pid 10:tid 140117914142464] [client 172.26.0.1:51268] AH00898: DNS lookup failure for: apache_proxy_pocfavicon.ico returned by /favicon.ico, referer: http://reverse.com/
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 07:28:15.565104 2020] [mpm_event:notice] [pid 15:tid 140395252026432] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 07:28:15.565233 2020] [core:notice] [pid 15:tid 140395252026432] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Oct 02 07:28:21.000384 2020] [proxy:error] [pid 16:tid 140394721388288] [client 172.27.0.1:50214] AH00898: DNS lookup failure for: apache_proxy_pocicons returned by /icons/blank.gif, referer: http://reverse.com/
+[Fri Oct 02 07:28:21.001670 2020] [proxy:error] [pid 17:tid 140394925475584] [client 172.27.0.1:50220] AH00898: DNS lookup failure for: apache_proxy_pocicons returned by /icons/text.gif, referer: http://reverse.com/
+[Fri Oct 02 07:28:21.105452 2020] [proxy:error] [pid 17:tid 140394917074688] [client 172.27.0.1:50220] AH00898: DNS lookup failure for: apache_proxy_pocfavicon.ico returned by /favicon.ico, referer: http://reverse.com/
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 07:29:11.132077 2020] [core:warn] [pid 9:tid 140311632305216] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 02 07:29:11.133148 2020] [mpm_event:notice] [pid 9:tid 140311632305216] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 07:29:11.133173 2020] [core:notice] [pid 9:tid 140311632305216] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 07:32:55.730890 2020] [core:warn] [pid 8:tid 140275710192704] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 02 07:32:55.731930 2020] [mpm_event:notice] [pid 8:tid 140275710192704] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 07:32:55.731957 2020] [core:notice] [pid 8:tid 140275710192704] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Oct 02 07:33:00.208442 2020] [proxy:error] [pid 9:tid 140275158537984] [client 172.27.0.1:50292] AH00898: DNS lookup failure for: apache_proxy_pocfavicon.ico returned by /favicon.ico, referer: http://reverse.com/
+[Fri Oct 02 07:36:10.006921 2020] [mpm_event:notice] [pid 8:tid 140275710192704] AH00493: SIGUSR1 received.  Doing graceful restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 07:36:10.013908 2020] [mpm_event:notice] [pid 8:tid 140275710192704] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 07:36:10.013921 2020] [core:notice] [pid 8:tid 140275710192704] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 07:37:12.916273 2020] [core:warn] [pid 9:tid 139908235512896] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 02 07:37:12.917502 2020] [mpm_event:notice] [pid 9:tid 139908235512896] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 07:37:12.917535 2020] [core:notice] [pid 9:tid 139908235512896] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Oct 02 07:37:29.768026 2020] [proxy:error] [pid 11:tid 139907645286144] [client 172.27.0.1:50418] AH00898: DNS lookup failure for: apache_proxy_pocfavicon.ico returned by /favicon.ico, referer: http://www.reverse.com/
+[Fri Oct 02 07:38:55.029504 2020] [proxy:error] [pid 10:tid 139907821467392] [client 172.27.0.1:50446] AH00898: DNS lookup failure for: apache_proxy_pocfavicon.ico returned by /favicon.ico, referer: http://www.reverse.com/
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 07:39:56.079708 2020] [core:warn] [pid 8:tid 140211792800832] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 02 07:39:56.080734 2020] [mpm_event:notice] [pid 8:tid 140211792800832] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 07:39:56.080761 2020] [core:notice] [pid 8:tid 140211792800832] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Oct 02 07:39:59.908903 2020] [proxy:error] [pid 10:tid 140211354859264] [client 172.27.0.1:50498] AH00898: DNS lookup failure for: apache_proxy_pocfavicon.ico returned by /favicon.ico, referer: http://www.reverse.com/
+[Fri Oct 02 07:44:57.671301 2020] [mpm_event:notice] [pid 8:tid 140211792800832] AH00493: SIGUSR1 received.  Doing graceful restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 07:44:57.677330 2020] [mpm_event:notice] [pid 8:tid 140211792800832] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 07:44:57.677341 2020] [core:notice] [pid 8:tid 140211792800832] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Oct 02 07:45:10.669270 2020] [proxy:error] [pid 193:tid 140211321288448] [client 172.27.0.1:50686] AH00898: DNS lookup failure for: apache_proxy_pocfavicon.ico returned by /favicon.ico, referer: http://www.reverse.com/
+[Fri Oct 02 07:45:18.170829 2020] [proxy:error] [pid 193:tid 140211262539520] [client 172.27.0.1:50692] AH00898: DNS lookup failure for: apache_proxy_pocfavicon.ico returned by /favicon.ico, referer: http://www.reverse.com/
+[Fri Oct 02 07:47:12.217551 2020] [mpm_event:notice] [pid 8:tid 140211792800832] AH00491: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 07:47:20.881508 2020] [mpm_event:notice] [pid 8:tid 140452940942400] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 07:47:20.881631 2020] [core:notice] [pid 8:tid 140452940942400] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Oct 02 07:47:25.919926 2020] [proxy:error] [pid 10:tid 140452393047808] [client 172.27.0.1:50720] AH00898: DNS lookup failure for: apache_proxy_pocfavicon.ico returned by /favicon.ico, referer: http://www.reverse.com/
+[Fri Oct 02 07:48:58.524849 2020] [proxy:error] [pid 9:tid 140452527331072] [client 172.27.0.1:50736] AH00898: DNS lookup failure for: apache_proxy_poc_2favicon.ico returned by /favicon.ico, referer: http://reverse.2.com/
