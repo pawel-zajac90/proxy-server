@@ -19,6 +19,8 @@ ENV APACHE_LOG_DIR /var/log/apache2
 ENV APACHE_LOCK_DIR /var/lock/apache2
 ENV APACHE_PID_FILE /var/run/apache2.pid 
 EXPOSE 80 443 
+COPY ./sites-enabled /etc/apache2/sites-available 
+RUN a2ensite 
 
 # By default, simply start apache.
 CMD /usr/sbin/apache2ctl -D FOREGROUND
