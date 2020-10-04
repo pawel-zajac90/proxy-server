@@ -19,8 +19,11 @@ ENV APACHE_LOG_DIR /var/log/apache2
 ENV APACHE_LOCK_DIR /var/lock/apache2
 ENV APACHE_PID_FILE /var/run/apache2.pid 
 EXPOSE 80 443 
-COPY ./sites-enabled /etc/apache2/sites-available 
-RUN a2ensite 
+# COPY ./sites-enabled /etc/apache2/sites-available 
+# RUN a2ensite 000-default.conf
+# RUN certbot certonly --standalone -d 2.coristo.4py.pl --non-interactive --agree-tos --email jobu-devs@gmail.com --http-01-port=80
+# RUN certbot certonly --standalone -d 2.coristo.4py.pl --non-interactive --agree-tos --email jobu-devs@gmail.com --http-01-port=80
+# RUN certbot certonly --standalone -d 2.coristo.4py.pl --non-interactive --agree-tos --email jobu-devs@gmail.com --http-01-port=80
 
 # By default, simply start apache.
 CMD /usr/sbin/apache2ctl -D FOREGROUND

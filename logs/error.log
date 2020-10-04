@@ -195,3 +195,145 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 [Fri Oct 02 07:47:20.881631 2020] [core:notice] [pid 8:tid 140452940942400] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
 [Fri Oct 02 07:47:25.919926 2020] [proxy:error] [pid 10:tid 140452393047808] [client 172.27.0.1:50720] AH00898: DNS lookup failure for: apache_proxy_pocfavicon.ico returned by /favicon.ico, referer: http://www.reverse.com/
 [Fri Oct 02 07:48:58.524849 2020] [proxy:error] [pid 9:tid 140452527331072] [client 172.27.0.1:50736] AH00898: DNS lookup failure for: apache_proxy_poc_2favicon.ico returned by /favicon.ico, referer: http://reverse.2.com/
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 10:03:53.588084 2020] [mpm_event:notice] [pid 15:tid 140363168324672] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 10:03:53.588288 2020] [core:notice] [pid 15:tid 140363168324672] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Oct 02 10:15:05.920190 2020] [core:error] [pid 9:tid 140319885077568] (EAI 2)Name or service not known: AH00547: Could not resolve host name 1.coristo.4py.py -- ignoring!
+[Fri Oct 02 10:15:05.928417 2020] [core:error] [pid 9:tid 140319885077568] (EAI 2)Name or service not known: AH00547: Could not resolve host name 2.coristo.4py.pl -- ignoring!
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 10:15:05.932246 2020] [core:warn] [pid 9:tid 140319885077568] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 02 10:15:05.935776 2020] [mpm_event:notice] [pid 9:tid 140319885077568] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 10:15:05.935835 2020] [core:notice] [pid 9:tid 140319885077568] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 10:48:44.895885 2020] [mpm_event:notice] [pid 15:tid 140401394289728] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 10:48:44.896100 2020] [core:notice] [pid 15:tid 140401394289728] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Oct 02 10:49:00.151948 2020] [proxy:error] [pid 17:tid 140401059297024] [client 89.64.37.134:15648] AH00898: DNS lookup failure for: apache_proxy_pocfavicon.ico returned by /favicon.ico, referer: http://coristo.4py.pl/
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 10:53:55.586536 2020] [mpm_event:notice] [pid 15:tid 140276551969856] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 10:53:55.586842 2020] [core:notice] [pid 15:tid 140276551969856] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Oct 02 10:54:27.318589 2020] [proxy:error] [pid 17:tid 140276216977152] [client 89.64.37.134:15668] AH00898: DNS lookup failure for: apache_proxy_pocfavicon.ico returned by /favicon.ico, referer: http://coristo.4py.pl/
+[Fri Oct 02 10:55:55.350698 2020] [proxy:error] [pid 17:tid 140276106520320] [client 89.64.37.134:15720] AH00898: DNS lookup failure for: apache_proxy_pocfavicon.ico returned by /favicon.ico, referer: http://coristo.4py.pl/
+[Fri Oct 02 11:32:32.236293 2020] [proxy:error] [pid 16:tid 140276225378048] [client 13.67.227.220:60663] AH00898: DNS lookup failure for: apache_proxy_poc.env returned by /.env
+[Fri Oct 02 12:19:45.190315 2020] [proxy:error] [pid 17:tid 140276072949504] [client 89.64.37.134:15692] AH00898: DNS lookup failure for: apache_proxy_pocfavicon.ico returned by /favicon.ico, referer: http://coristo.4py.pl/
+[Fri Oct 02 12:22:41.956845 2020] [proxy:error] [pid 16:tid 140276030985984] [client 89.64.37.134:15651] AH00898: DNS lookup failure for: apache_proxy_pocfavicon.ico returned by /favicon.ico, referer: http://coristo.4py.pl/
+AH00112: Warning: DocumentRoot [/www/html/index.html] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 12:29:43.802287 2020] [mpm_event:notice] [pid 16:tid 140558365187136] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 12:29:43.802535 2020] [core:notice] [pid 16:tid 140558365187136] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Oct 02 12:30:05.982675 2020] [authz_core:error] [pid 17:tid 140557812713216] [client 89.64.37.134:15662] AH01630: client denied by server configuration: /www
+[Fri Oct 02 12:30:06.113554 2020] [authz_core:error] [pid 17:tid 140558030161664] [client 89.64.37.134:15662] AH01630: client denied by server configuration: /www, referer: http://coristo.4py.pl/
+AH00112: Warning: DocumentRoot [/var/www/html/index.html] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 12:31:21.010490 2020] [core:warn] [pid 8:tid 139833550613568] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 02 12:31:21.015489 2020] [mpm_event:notice] [pid 8:tid 139833550613568] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 12:31:21.015554 2020] [core:notice] [pid 8:tid 139833550613568] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 12:32:07.142040 2020] [core:warn] [pid 8:tid 140402754485312] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 02 12:32:07.143966 2020] [mpm_event:notice] [pid 8:tid 140402754485312] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 12:32:07.143994 2020] [core:notice] [pid 8:tid 140402754485312] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 12:33:11.989109 2020] [core:warn] [pid 8:tid 139848049482816] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 02 12:33:11.991440 2020] [mpm_event:notice] [pid 8:tid 139848049482816] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 12:33:11.991480 2020] [core:notice] [pid 8:tid 139848049482816] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 12:34:26.789035 2020] [core:warn] [pid 8:tid 140499319987264] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 02 12:34:26.791621 2020] [mpm_event:notice] [pid 8:tid 140499319987264] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 12:34:26.791655 2020] [core:notice] [pid 8:tid 140499319987264] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 15:14:32.200956 2020] [core:warn] [pid 9:tid 140541728271424] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 02 15:14:32.207988 2020] [mpm_event:notice] [pid 9:tid 140541728271424] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 15:14:32.208052 2020] [core:notice] [pid 9:tid 140541728271424] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 15:17:37.812477 2020] [core:warn] [pid 8:tid 140658244004928] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 02 15:17:37.816389 2020] [mpm_event:notice] [pid 8:tid 140658244004928] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 15:17:37.816434 2020] [core:notice] [pid 8:tid 140658244004928] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 15:17:59.264790 2020] [core:warn] [pid 8:tid 140274542029888] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 02 15:17:59.267408 2020] [mpm_event:notice] [pid 8:tid 140274542029888] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 15:17:59.267436 2020] [core:notice] [pid 8:tid 140274542029888] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 15:50:43.228480 2020] [core:warn] [pid 8:tid 140713212832832] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 02 15:50:43.233145 2020] [mpm_event:notice] [pid 8:tid 140713212832832] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 15:50:43.233201 2020] [core:notice] [pid 8:tid 140713212832832] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 16:12:46.701946 2020] [core:warn] [pid 8:tid 140634426883136] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 02 16:12:46.704995 2020] [mpm_event:notice] [pid 8:tid 140634426883136] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 16:12:46.705049 2020] [core:notice] [pid 8:tid 140634426883136] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Oct 02 16:13:02.241919 2020] [proxy:error] [pid 10:tid 140633981306624] [client 89.64.37.134:15656] AH00898: DNS lookup failure for: apache_proxy_pocfavicon.ico returned by /favicon.ico, referer: http://1.coristo.4py.pl/
+[Fri Oct 02 16:13:08.231694 2020] [proxy:error] [pid 10:tid 140633847023360] [client 89.64.37.134:15630] AH00898: DNS lookup failure for: apache_proxy_poc_2favicon.ico returned by /favicon.ico, referer: http://2.coristo.4py.pl/
+[Fri Oct 02 16:27:33.505628 2020] [mpm_event:notice] [pid 8:tid 140634426883136] AH00491: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 02 16:27:58.646574 2020] [mpm_event:notice] [pid 8:tid 140476495088704] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Fri Oct 02 16:27:58.647596 2020] [core:notice] [pid 8:tid 140476495088704] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 03 13:08:16.252116 2020] [proxy:error] [pid 10:tid 140475973437184] [client 89.64.37.134:15736] AH00898: DNS lookup failure for: apache_proxy_pocfavicon.ico returned by /favicon.ico, referer: http://1.coristo.4py.pl/
+[Sat Oct 03 13:20:37.061548 2020] [mpm_event:notice] [pid 8:tid 140476495088704] AH00491: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 03 21:17:34.793718 2020] [mpm_event:notice] [pid 9:tid 139686540143680] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Sat Oct 03 21:17:34.800839 2020] [core:notice] [pid 9:tid 139686540143680] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 03 21:17:46.612498 2020] [ssl:error] [pid 11:tid 139686238779136] [remote 172.22.0.3:443] AH01961: SSL Proxy requested for 1.coristo.4py.pl:443 but not enabled [Hint: SSLProxyEngine]
+[Sat Oct 03 21:17:46.612657 2020] [proxy:error] [pid 11:tid 139686238779136] AH00961: HTTPS: failed to enable ssl support for 172.22.0.3:443 (apache_proxy_poc)
+[Sat Oct 03 21:17:46.747534 2020] [ssl:error] [pid 11:tid 139686238779136] [remote 172.22.0.3:443] AH01961: SSL Proxy requested for 1.coristo.4py.pl:443 but not enabled [Hint: SSLProxyEngine]
+[Sat Oct 03 21:17:46.747593 2020] [proxy:error] [pid 11:tid 139686238779136] AH00961: HTTPS: failed to enable ssl support for 172.22.0.3:443 (apache_proxy_poc)
+[Sat Oct 03 21:18:22.628461 2020] [proxy:error] [pid 10:tid 139686179899136] [client 89.64.37.134:15708] AH00898: DNS lookup failure for: apache_proxy_poc_2favicon.ico returned by /favicon.ico, referer: http://2.coristo.4py.pl/
+[Sat Oct 03 21:23:13.170332 2020] [ssl:error] [pid 11:tid 139686238779136] [remote 172.22.0.3:443] AH01961: SSL Proxy requested for 1.coristo.4py.pl:443 but not enabled [Hint: SSLProxyEngine]
+[Sat Oct 03 21:23:13.170639 2020] [proxy:error] [pid 11:tid 139686238779136] AH00961: HTTPS: failed to enable ssl support for 172.22.0.3:443 (apache_proxy_poc)
+[Sat Oct 03 21:25:16.114291 2020] [ssl:error] [pid 10:tid 139686068602624] [remote 172.22.0.3:443] AH01961: SSL Proxy requested for 1.coristo.4py.pl:443 but not enabled [Hint: SSLProxyEngine]
+[Sat Oct 03 21:25:16.114403 2020] [proxy:error] [pid 10:tid 139686068602624] AH00961: HTTPS: failed to enable ssl support for 172.22.0.3:443 (apache_proxy_poc)
+[Sat Oct 03 21:25:58.064572 2020] [ssl:error] [pid 11:tid 139685774989056] [remote 172.22.0.3:443] AH01961: SSL Proxy requested for 1.coristo.4py.pl:443 but not enabled [Hint: SSLProxyEngine]
+[Sat Oct 03 21:25:58.064689 2020] [proxy:error] [pid 11:tid 139685774989056] AH00961: HTTPS: failed to enable ssl support for 172.22.0.3:443 (apache_proxy_poc)
+[Sat Oct 03 21:28:02.584742 2020] [mpm_event:notice] [pid 9:tid 139686540143680] AH00491: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 03 21:28:23.654413 2020] [mpm_event:notice] [pid 8:tid 140233340591168] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Sat Oct 03 21:28:23.655937 2020] [core:notice] [pid 8:tid 140233340591168] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 03 21:28:33.705775 2020] [proxy:error] [pid 9:tid 140233030825728] (20014)Internal error (specific information not available): [client 89.64.37.134:15690] AH01084: pass request body failed to 172.22.0.3:443 (apache_proxy_poc)
+[Sat Oct 03 21:28:33.706224 2020] [proxy:error] [pid 9:tid 140233030825728] [client 89.64.37.134:15690] AH00898: Error during SSL Handshake with remote server returned by /
+[Sat Oct 03 21:28:33.706237 2020] [proxy_http:error] [pid 9:tid 140233030825728] [client 89.64.37.134:15690] AH01097: pass request body failed to 172.22.0.3:443 (apache_proxy_poc) from 89.64.37.134 ()
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.26.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Oct 04 08:32:17.296048 2020] [mpm_event:notice] [pid 15:tid 139673517186112] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Sun Oct 04 08:32:17.296355 2020] [core:notice] [pid 15:tid 139673517186112] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.26.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Oct 04 08:33:16.249852 2020] [core:warn] [pid 8:tid 140246757669952] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Oct 04 08:33:16.255983 2020] [mpm_event:notice] [pid 8:tid 140246757669952] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Sun Oct 04 08:33:16.256029 2020] [core:notice] [pid 8:tid 140246757669952] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sun Oct 04 08:37:52.753933 2020] [mpm_event:notice] [pid 8:tid 140246757669952] AH00491: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.26.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Oct 04 08:55:03.169570 2020] [mpm_event:notice] [pid 9:tid 140575601556544] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Sun Oct 04 08:55:03.170053 2020] [core:notice] [pid 9:tid 140575601556544] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sun Oct 04 10:08:18.379535 2020] [mpm_event:notice] [pid 9:tid 140575601556544] AH00491: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.26.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Oct 04 10:08:35.415429 2020] [mpm_event:notice] [pid 9:tid 139859764776000] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Sun Oct 04 10:08:35.415693 2020] [core:notice] [pid 9:tid 139859764776000] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sun Oct 04 10:13:36.599982 2020] [mpm_event:notice] [pid 9:tid 139859764776000] AH00491: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.26.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Oct 04 10:13:46.439875 2020] [mpm_event:notice] [pid 9:tid 139637575015488] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Sun Oct 04 10:13:46.440132 2020] [core:notice] [pid 9:tid 139637575015488] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sun Oct 04 10:16:37.209040 2020] [mpm_event:notice] [pid 9:tid 139637575015488] AH00491: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.26.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Oct 04 10:16:41.874629 2020] [mpm_event:notice] [pid 9:tid 139642408688704] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Sun Oct 04 10:16:41.874848 2020] [core:notice] [pid 9:tid 139642408688704] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sun Oct 04 10:18:38.782833 2020] [mpm_event:notice] [pid 9:tid 139642408688704] AH00491: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.26.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Oct 04 10:18:41.975041 2020] [mpm_event:notice] [pid 8:tid 139786564013120] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Sun Oct 04 10:18:41.975314 2020] [core:notice] [pid 8:tid 139786564013120] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sun Oct 04 10:20:23.137515 2020] [mpm_event:notice] [pid 8:tid 139786564013120] AH00491: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.26.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Oct 04 10:20:29.096625 2020] [mpm_event:notice] [pid 8:tid 140049545681984] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Sun Oct 04 10:20:29.096869 2020] [core:notice] [pid 8:tid 140049545681984] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Oct 04 11:44:18.461444 2020] [mpm_event:notice] [pid 15:tid 140688257305664] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Sun Oct 04 11:44:18.461680 2020] [core:notice] [pid 15:tid 140688257305664] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.28.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Oct 04 11:50:05.256237 2020] [mpm_event:notice] [pid 16:tid 140041571720256] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Sun Oct 04 11:50:05.256498 2020] [core:notice] [pid 16:tid 140041571720256] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sun Oct 04 11:56:55.847788 2020] [mpm_event:notice] [pid 16:tid 140041571720256] AH00491: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.29.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Oct 04 12:11:38.731383 2020] [mpm_event:notice] [pid 15:tid 139882653305920] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Sun Oct 04 12:11:38.731716 2020] [core:notice] [pid 15:tid 139882653305920] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.29.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Oct 04 12:12:25.659292 2020] [core:warn] [pid 9:tid 140584044727360] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Oct 04 12:12:25.662382 2020] [mpm_event:notice] [pid 9:tid 140584044727360] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Sun Oct 04 12:12:25.662432 2020] [core:notice] [pid 9:tid 140584044727360] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sun Oct 04 12:19:14.422873 2020] [mpm_event:notice] [pid 9:tid 140584044727360] AH00491: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.30.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Oct 04 12:24:42.233584 2020] [mpm_event:notice] [pid 15:tid 139956889545792] AH00489: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Sun Oct 04 12:24:42.233982 2020] [core:notice] [pid 15:tid 139956889545792] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
